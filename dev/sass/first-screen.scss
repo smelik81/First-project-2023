@@ -1,7 +1,15 @@
-.first-screen {
-    .slik-slide {
-        padding: 162px 0 228px;
+.first-screen-slider {
+    margin: 50px 0;
+}
+
+.screen-slider {
+    .container {
+        height: 100vh;
+        padding: 163px 0 222px;
     }
+}
+
+.first-screen {
     &__title {
         max-width: 463px;
         font-family: normal;
@@ -19,23 +27,30 @@
         line-height: 136%;
         margin-bottom: 37px;
     }   
+    
+}
+.first-screen-slider {
     button.btn-primary {
         position: relative;
         background-color: $color-primary;
         color: $text-color;
         font-family: normal;
-        font-style: Semibold;
-        font-size: 16px;
+        font-style: 600;
+        font-size: 18px;
         line-height: 146%;
         padding: 23px 97px 22px 33px;
         border-radius: 90px;  
+        border: 1px solid #E58D35;
     }
-        &::after {
+        button.btn-primary::after {
             content: "";
             position: absolute;
-            background-image: url(assets/img/vector_arrow.svg) center no-repeat;
+            background-image: url(assets/img/vector-arrow-1.svg);
             width: 26px;
             height: 26px;
+            top: 24px;
+            right: 22px;
         } 
 }
+
 
