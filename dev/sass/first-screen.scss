@@ -18,14 +18,15 @@
         font-size: 20px;
         line-height: 136%;
         margin-bottom: 37px;
-    }    
-}
-
-.first-screen {
+    }   
     button.btn-primary {
         position: relative;
         background-color: $color-primary;
         color: $text-color;
+        font-family: normal;
+        font-style: Semibold;
+        font-size: 16px;
+        line-height: 146%;
         padding: 23px 97px 22px 33px;
         border-radius: 90px;  
     }
@@ -35,5 +36,6 @@
             background-image: url(assets/img/vector_arrow.svg) center no-repeat;
             width: 26px;
             height: 26px;
-        }
+        } 
 }
+
