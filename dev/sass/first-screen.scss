@@ -30,9 +30,11 @@
         font-size: 20px;
         line-height: 136%;
         margin-bottom: 37px;
-    }   
-    
+    }      
 }
+
+
+
 /*.first-screen-slider {
     button.btn-primary {
         position: relative;
@@ -57,17 +59,3 @@
         } 
 }
 */
-.first-screen-slider {
-    .btn-lg {
-        display: flex;
-        padding: 19px 34px;
-        font-size: 16px;
-        white-space: nowrap;
-        .icon {
-            margin: 0 -14px 0 48px;
-            width: 27px;
-            height: 27px;       
-        }
-    }    
-}
-
