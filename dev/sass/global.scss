@@ -51,7 +51,10 @@ h6,.h6 {
     font-size: 18px;
 }
 
-
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+}
 .container-xxl {
     max-width: 1820px;
 }
@@ -250,4 +253,8 @@ h6,.h6 {
         width: 27px;
         height: 27px;      
     }
+}
+
+.slick-track {
+    display: flex;
 }

@@ -1,3 +1,35 @@
-.slick-track {
-    display: flex;
+header {
+    .navbar {
+        padding: 32.1px 0;
+    }
+    .navbar-brand {
+        padding: 0;
+    }
+    a.nav-link {
+        color: #fff;
+        &:hover, &:focus {
+            color: $color-primary;
+        }
+    }
+    .navbar-nav {
+        max-width: 618px;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;   
+        
+        .nav-link {
+            &.active {
+            color: $color-primary;
+            }
+        }
+    }   
+    .btn {
+        padding: 12px 22.5px;    
+        margin-left: 16px;
+        white-space: nowrap;
+    }    
 }
+
+
+
