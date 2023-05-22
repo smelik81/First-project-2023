@@ -1,14 +1,20 @@
 header {
     .navbar {
-        padding: 32.1px 0;
+        /*padding: 32.1px 0;*/
+        padding-top: 25px;
+        padding-bottom: 39px;
+        @extend .container;
+        .navbar-brand {
+            padding: 0;
+        }
     }
-    .navbar-brand {
-        padding: 0;
-    }
+    
     a.nav-link {
         color: #fff;
+        transition: .2s;
         &:hover, &:focus {
             color: $color-primary;
+            transition: .4s;
         }
     }
     .navbar-nav {
@@ -28,8 +34,47 @@ header {
         padding: 12px 22.5px;    
         margin-left: 16px;
         white-space: nowrap;
-    }    
+    }
+    .navbar-toggler {
+        width: 27.5px;
+        height: 25px;
+        border: none;
+        padding: 0;
+        &-icon {
+            position: relative;
+            width: 27.5px;
+            height: 2.5px;
+            background: #fff;
+            &::before,
+            &::after
+             {
+                content: "";
+                position: absolute;
+                width: 27.5px;
+                height: 2.5px;
+                background: #fff;
+                top: -11px;
+                left: 0;
+            }
+            &::after {
+                right: 0;
+                bottom: -11px;
+                top: initial;
+            }
+        }
+        &:focus {
+            box-shadow: none;
+        }    
+    }
+
+    [aria-expanded="true"] 
+        .navbar-toggler-icon {
+            background-color: transparent;
+            &::before {
+                transform: rotate(45deg) translate(7px, 7px);
+            }
+            &::after {
+                transform: rotate(-45deg) translate(9px, -8px);
+            }
+        }
 }
-
-
-

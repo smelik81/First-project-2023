@@ -1,0 +1,38 @@
+@media screen and (max-width: 991px) {
+   .container {
+      padding-left: 20px;
+      padding-right: 20px;
+   }
+   header 
+      .navbar {
+         padding-top: 19px;
+         padding-bottom: 17px;
+      }
+      .navbar-nav {
+        text-align: center;
+        padding: 37px 0 34px;
+         .nav-link {
+            font-size: 24px;
+            line-height: 222%;
+            text-align: center;
+            color: #FFFFFF;
+         }
+      } 
+
+      .navbar-collapse {
+         background-color: #363A4D;
+         margin: 0 -39px;
+         transform: translate(0px, 15px);
+         transition: 0.7s;
+         .btn { 
+            display: block;
+            max-width: 295px;
+            width: 100%;
+            padding: 21.3px 22.5px;
+            margin: 0 auto 60px;  
+         }
+      }   
+}
+
+
+
