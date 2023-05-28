@@ -229,11 +229,15 @@ h6,.h6 {
             filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(64deg) brightness(160%) contrast(102%);
         }
     }
+    &:focus-visible {
+        box-shadow: none;
+    }
 }
 .btn-primary {
     background-color: $color-primary;
     border-color: $color-primary;
-    &:hover {
+    &:hover,
+    &:active {
         background-color: $color-secondary;
         border-color: $color-secondary;
     }
@@ -242,7 +246,8 @@ h6,.h6 {
 .btn-secondary {
     background-color: transparent;
     border-color: $color-primary;
-    &:hover {
+    &:hover,
+    &:active {
         background-color: $color-secondary;
         border-color: $color-secondary;
     }
