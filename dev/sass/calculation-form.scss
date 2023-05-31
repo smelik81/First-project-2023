@@ -1,0 +1,42 @@
+.calculation-form {
+    max-width: 626px;
+    width: 100%;
+    border-radius: 20px;
+    background: $bg-secondary;
+    padding: 50px 50px 61px;
+    input {
+        width: 100%;
+    }
+    [class*="col"] {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+input {
+    transition: .2s;
+    &[type="text"],
+    &[type="number"] {
+        background: #FFFFFF;
+        border-radius: 10px;
+        padding: 18.5px 20px;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 126%;
+        border: none;
+    
+        &:hover {
+            box-shadow: 3px 3px 5px 1px rgb(23 23 23);
+        }
+        &:active {
+            box-shadow: 3px 3px 5px 1px $color-primary;
+        }
+        &:focus {
+            box-shadow: 2px 2px 1px 0.2px $color-secondary;
+        }
+        &:focus-visible {
+            outline: none;
+        }
+    }
+}
+

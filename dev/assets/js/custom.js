@@ -18,3 +18,18 @@ $('.first-screen-slider').slick({
 
 });
 
+function checkboxContainerPadding() {
+  const checkButton = document.querySelectorAll('.check-button');
+
+checkButton.forEach(element => {
+  element.closest('[class*="col"]').classList.add('padding-top');
+ 
+});
+console.log(checkButton);
+}
+ 
+if (document.querySelector('.calculation-form')) {
+    checkboxContainerPadding()
+} else {
+    null;
+}

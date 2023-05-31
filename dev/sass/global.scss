@@ -268,3 +268,24 @@ h6,.h6 {
     display: flex;
 }
  
+
+.section {
+    margin-bottom: $section-margin-lg;
+    &:last-of-type {
+        margin-bottom: 56px;
+    }
+}
+
+.input-box {
+    margin-bottom: 20px;
+    label {
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 126%;
+        margin-bottom: 6px;
+    }
+}
+
+.padding-top {
+    padding-top: 23px;
+}
