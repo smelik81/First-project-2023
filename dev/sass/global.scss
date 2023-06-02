@@ -352,10 +352,20 @@ section {
 
     /*type 3*/
     &.col-md-7 {
-        text-align: left;
+        h2 {
+            &:after {
+                content: "";
+                position: static;
+                width: 85px;
+                height: 2px;
+                display: inline-block;
+                background-color: $color-secondary;
+                margin: 10px;
+            }
+            
+        }
         &:after {
-            left: 84%;
-            top: 60%;
+            display: none;
         }
     }
 }
