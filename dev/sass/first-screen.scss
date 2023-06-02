@@ -3,8 +3,8 @@
     margin-bottom: 100px;
     &__title {
         max-width: 463px;
-        font-family: normal;
-        font-style: Bold;
+        font-family: ProximaNova;
+        font-style: 700;
         font-size: 56px;
         line-height: 126%;
         text-transform: uppercase;
@@ -12,14 +12,14 @@
     }
     &__subtitle {
         max-width: 345px;
-        font-family: normal;
-        font-style: light;
+        font-family: ProximaNova;
+        font-style: 400;
         font-size: 20px;
         line-height: 136%;
         margin-bottom: 37px;
     }    
     .btn-lg {
-        padding: 19px 28px;
+        padding: 19px 33.3px;
     }
     .container-arrows {
         position: absolute;
