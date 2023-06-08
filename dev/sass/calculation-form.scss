@@ -10,7 +10,7 @@
             bottom: -113px;
             max-width: 626px;
             width: 39vw;
-            height: 98vh;
+            height: 214vh;
             background: url(../assets/img/shot-man-foto-bg.png) left bottom/contain no-repeat;
         }
     }
@@ -23,6 +23,7 @@
     background: $bg-secondary;
     padding: 50px 50px 61px;
     position: relative;
+    margin: 0 0 0 15px;
 
     input {
         width: 100%;
@@ -126,3 +127,5 @@ input::-webkit-inner-spin-button {
 input[type=number] {
   -moz-appearance:textfield;
 }
+/* КРОСБРАУЗПЕРНОСТЬ*/
+

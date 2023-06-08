@@ -93,6 +93,34 @@
       
    }
 
+   .template-title {
+      margin-bottom: 40px;
+      h2 {
+      font-size: 24px;
+      text-align: center;
+      }
+      &.text-left {
+         &:after {
+         left: 50%;
+         transform: translate(-50%, 0);
+         }
+      }
+      &.col-lg-7 {
+         h2 {
+            &:after {
+            position: absolute;
+            left: 50%;
+            top: calc(100% - 10px);
+            transform: translate(-50%, 0);
+            margin: 0;
+            }
+         }
+         
+      }
+   }
+
+
+
    .calculation {
       margin-bottom: 60px;
       .container {
@@ -100,6 +128,11 @@
               display: none;
           }
       }
+   }
+
+   .calculation-form {
+      margin: 0;
+      padding: 52px 30px 34px;
    }
 }
 

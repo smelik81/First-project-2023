@@ -1,3 +1,26 @@
 @media screen and (max-width: 575px) {
+    .first-screen {
+        padding: 19.5px 33.7px;
+        .btn-lg {
+            .icon {
+                margin: 0 -14px 0 auto;
+                width: 27px;
+                height: 27px;
+            }
+        }
+    }
     
+       
+
+    .calculation-form {
+        .btn-lg {
+            padding: 19.5px 45px;
+            width: 100%;
+            .icon {
+                margin: 0 -14px 0 auto;
+                width: 27px;
+                height: 27px;    
+            }
+         }
+    }
 }
