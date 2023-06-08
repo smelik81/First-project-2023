@@ -33,3 +33,12 @@ if (document.querySelector('.calculation-form')) {
 } else {
     null;
 }
+
+
+document.getElementById('fileInput').onchange = function() {
+  //short name
+  document.getElementById('file-name').innerHTML = this.files[0].name;
+
+  //long name
+  // document.getElementById('file-name').innerHTML = this.value;
+};
