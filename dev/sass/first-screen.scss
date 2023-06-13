@@ -29,35 +29,7 @@
         left: 50%;
         transform: translate(-50px, 0);
         top: calc(100% - 66px);
-        display: flex;
-        justify-content: center;
-        margin: 0;
-        padding: 0;
-         
-        > li {
-            margin: 0 13px;
-            list-style: none;
-            height: 8px;
-            line-height: 8px;
-            font-size: 0;
-            &.slick-active {
-                button {
-                    background-color: #fff;
-                }
-            }
-        }
-        button {
-            font-size: 0;
-            border: none;
-            padding: 0;
-            width: 8px;
-            height: 8px;
-            border-radius: 50%;
-            opacity: 0.9;
-            border: 2px solid #ffffff;
-            background: transparent;
-            outline: none;
-        }
+        
     }  
         
     .slick-list {
