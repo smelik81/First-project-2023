@@ -28,6 +28,10 @@ header {
             &.active {
             color: $color-primary;
             }
+
+            /*&.disabled {
+                color: #ffebeb5e;
+            }*/
         }
     }   
     .btn {

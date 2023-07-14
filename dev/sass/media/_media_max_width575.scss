@@ -23,4 +23,34 @@
             }
          }
     }
+
+    .dilivery {
+        .slick-slide:after {
+            left: 0;
+            right: 0;
+        }
+       .slider-template__img-box {
+            margin-bottom: 43px;
+        }
+        .slider-template__btn-row{
+            padding: 0 15px;
+            .btn {
+                white-space: nowrap;
+                width: 138px;
+                min-width: 138px;
+            }
+        } 
+    }
+
+    .slider-template {
+       width: 335px;
+
+        .slick-slide {
+            padding: 0 0 27px;
+        }
+        .slick-dots {
+            margin-top: 33px;
+        }
+    }
+
 }
