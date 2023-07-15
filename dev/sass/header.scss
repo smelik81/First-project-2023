@@ -15,6 +15,7 @@ header {
         &:hover, &:focus {
             color: $color-primary;
             transition: .4s;
+            cursor: pointer;
         }
     }
     .navbar-nav {

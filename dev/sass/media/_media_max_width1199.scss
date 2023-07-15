@@ -11,7 +11,14 @@
             }
         }
     } 
-       
+    
+    .about {
+        .about__img {
+            img {
+                width: 100%;
+            }
+        }
+    }
     
 }
 
@@ -31,4 +38,11 @@
 
         }
     }
+
+    footer {
+        .footer-info {
+            margin: 0 auto;
+        }
+    }
 }
+
