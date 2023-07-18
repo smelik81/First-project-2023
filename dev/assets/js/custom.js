@@ -10,7 +10,7 @@ $(document).ready(function() {
             breakpoint: 991,
             settings: {
               arrows: false,
-              
+              fade: true,
             }
           },
         ]
@@ -23,14 +23,15 @@ $(document).ready(function() {
         var settings = {
             mobileFirst: true,
             dots: $dots,
-            arrows: $arrows,
+            arrows: false,
+            fade: true,
             responsive: [{
                 breakpoint: $breakpoint,
                 settings: "unslick"
             }]
         };
 
-        slider.slick(settings);
+        
 
         $(window).on("resize", function() {
             if ($(window).width() > $breakpoint) {

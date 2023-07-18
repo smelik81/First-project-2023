@@ -35,16 +35,18 @@
     .slick-list {
         margin: 0 -13px;
     }
+
+    .screen-slider {
+        background-size: cover;
+        background-repeat: no-repeat;
+        border-radius: 20px;
+        margin: 0 13px;
+        background-position: center;
+        padding: 163px 98px 228px;
+    }      
     
 }
-.screen-slider {
-    background-size: cover;
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    margin: 0 13px;
-    background-position: center;
-    padding: 163px 98px 228px;
-}      
+
 
 .container-arrows {
     position: absolute;
