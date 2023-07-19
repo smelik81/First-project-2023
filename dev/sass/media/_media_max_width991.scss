@@ -246,12 +246,12 @@
             font-weight: 400;
             font-size: 16px;
             line-height: 149.5%;
-            margin: 0;
+            margin-left: 15px;
 
             .dot {
-                  &:before {
-                     margin-right: 4px;
-                  }
+               &:before {
+                  margin-right: 4px;
+               }
             }
          }
 
